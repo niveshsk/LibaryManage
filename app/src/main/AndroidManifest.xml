@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nivesh.libarymanage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewData"></activity>
+        <activity android:name=".Return_book" />
+        <activity android:name=".Issue_book" />
+        <activity android:name=".Add_Book" />
+        <activity android:name=".Add_Student" />
+        <activity android:name=".Choose" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Add_Book">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ADD BOOK"
+        android:textColor="#BF1818"
+        android:textSize="36sp"
+        android:textStyle="normal|bold|italic" />
+
+    <EditText
+        android:id="@+id/book_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/book_na"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/author_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Author"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bo_pub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book Publication"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Count"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/add_boo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="add book" />
+</LinearLayout>

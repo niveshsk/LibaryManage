@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".Issue_book">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#EC1717"
+        android:gravity="center"
+        android:text="ISSUE"
+        android:textColor="#E3E3E3"
+        android:textSize="36sp"
+        android:textStyle="normal|bold|italic" />
+
+    <EditText
+        android:id="@+id/st_id_is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student register number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bo_id_is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bookid"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bo_is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:text="issue" />
+</LinearLayout>

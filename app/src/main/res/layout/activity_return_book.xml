@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:background="#4CAF50"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Return_book">
+
+    <EditText
+        android:id="@+id/re_st_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the register number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/re_bo_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the book id"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ret_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EA1A1A"
+        android:text="return book"
+        android:textColor="#FFEB3B" />
+</LinearLayout>

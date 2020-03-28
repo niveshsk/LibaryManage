@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#CDDC39"
+    android:orientation="vertical"
+    tools:context=".Add_Student">
+
+    <EditText
+        android:id="@+id/stu_reg_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Register number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stu_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Email id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Department"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/date_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of birth"
+        android:inputType="date|textShortMessage|textPersonName" />
+
+    <EditText
+        android:id="@+id/st_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stu_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/con_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter confirm password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/add_st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="add student" />
+</LinearLayout>
